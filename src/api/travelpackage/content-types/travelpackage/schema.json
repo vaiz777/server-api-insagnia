@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "travelpackages",
+  "info": {
+    "singularName": "travelpackage",
+    "pluralName": "travelpackages",
+    "displayName": "Travelpackage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Image": {
+      "type": "richtext"
+    }
+  }
+}

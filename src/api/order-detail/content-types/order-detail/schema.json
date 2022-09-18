@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_details",
+  "info": {
+    "singularName": "order-detail",
+    "pluralName": "order-details",
+    "displayName": "Orderdetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TravelPackageId": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Amount": {
+      "type": "integer"
+    },
+    "InvoiceId": {
+      "type": "string"
+    }
+  }
+}
